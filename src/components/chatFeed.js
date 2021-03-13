@@ -49,7 +49,7 @@ const ChatFeed = (props) => {
   }
   return (
     <div>
-      <div className="" chat-feed>
+      <div className="chat-feed">
         <div className="chat-title-container">
           <div className="chat-title">{chat?.title}</div>
           <div className="chat-subtitle">

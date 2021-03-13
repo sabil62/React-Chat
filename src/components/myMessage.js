@@ -20,7 +20,8 @@ const MyMessage = ({ message }) => {
         float: "right",
         marginRight: "18px",
         color: "white",
-        backgroundColor: "#3BSA50",
+        backgroundColor: "#3399FF",
+        marginBottom: "16px",
       }}
     >
       {message.text}
