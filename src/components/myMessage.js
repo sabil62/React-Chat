@@ -2,7 +2,7 @@ import React from "react";
 
 const MyMessage = ({ message }) => {
   //checking image(down)
-  if (message?.attachments?.length > 0) {
+  if (message.attachments && message.attachments.length > 0) {
     //if image
     return (
       <img
@@ -21,7 +21,7 @@ const MyMessage = ({ message }) => {
         marginRight: "18px",
         color: "white",
         backgroundColor: "#3399FF",
-        marginBottom: "16px",
+        marginBottom: "5px",
       }}
     >
       {message.text}
